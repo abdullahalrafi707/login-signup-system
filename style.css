@@ -1,0 +1,207 @@
+/* Created By - 
+Abdullah Al Rafi 
+Email : mdabdullahalrafi2021@gmail.com
+*/
+
+/* main style sheet */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body {
+  font-size: 1.5rem;
+  padding: 1%;
+}
+a {
+  text-decoration: none;
+}
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+#login-form {
+  margin: 5rem auto;
+  width: 35rem;
+  padding: 3rem 2.5rem;
+  border: 0.01rem solid #30b030;
+  border-radius: 1rem;
+}
+
+.modal-design, #main-info .info-area{
+  padding: 1%;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+  outline: none;
+}
+.modal-design:hover , #main-info .info-area:hover{
+  border-color: #30b030;
+}
+.modal-design:focus, .info-area:focus{
+  border: 0.1rem solid #30b030;
+}
+#main-info span{
+  padding-left: 5.7rem;
+  padding-top: 1rem;
+  display: block;
+}
+
+.btn{
+  background-color: #008000;
+  color: white;
+  padding: 3%;
+  border: none;
+  width: 30%;
+  display: block;
+  margin: auto;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+#top-title{
+  text-align: center;
+  background-color: #008000;
+  color: white;
+  margin: 0;
+  padding: 2%;
+}
+.btn:hover {
+  background-color: #30b030;
+}
+h2{
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+h2::before{
+  content: "";
+  display: inline-block;
+  background-color: black;
+  width: 10rem;
+  height: 0.1rem;
+  bottom: 1rem;
+}
+h2::after{
+  content: "";
+  display: inline-block;
+  background-color: black;
+  width: 10rem;
+  height: 0.1rem;
+  bottom: 1rem;
+}
+#btn2 {
+  text-align: center;
+  display: block;
+  color: #ffffff;
+  background-color: #008000;
+  padding: 3%;
+  border: none;
+  width: 30%;
+  margin: auto;
+  border-radius: 1rem;
+}
+#btn2:hover {
+  background-color: #30b030;
+}
+.panel-success h1{
+  color: #008000;
+  margin: 0;
+  padding: 0;
+}
+.panel-success{
+  margin-top: 1rem;
+  position: relative;
+  background-color: #DDFFDD;
+  text-align: left;
+  padding: 1rem;
+  border-left: 0.6rem solid #4CAF50;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.panel-success span{
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 0.8rem;
+  cursor: pointer;
+}
+.panel-success span:hover{
+  background-color: #ccc;
+}
+.panel-failed h1{
+  color: #ffffff;
+}
+.panel-failed{
+  background-color: #F44336;
+  color: #ffffff;
+  border-left: 0.6rem solid #ff0000;
+}
+table, tr,td,th{
+  border: 0.01rem solid green;
+}
+table{
+  border-collapse: collapse;
+}
+.scls{
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.changebtn{
+  color: #ffffff;
+  background-color: #F44336;
+  width: 100%;
+}
+#main-info .dashboard-item{
+  padding-left: 0;
+}
+/* modal */
+.modal{
+  z-index:3;
+  display:none;
+  padding-top:10rem;
+  position:fixed;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  overflow:auto;
+  background-color:rgb(0,0,0);
+  background-color:rgba(0,0,0,0.4);
+}
+.modal-content{
+  margin:auto;
+  background-color:#fff;
+  position:relative;
+  padding:0;
+  outline:0;
+  width:60rem;
+}
+.cross-span{
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  font-size: 2rem;
+  padding: 1%;
+}
+.cross-span:hover{
+  background-color: #ccc;
+}
+.modal-content form{
+  padding: 1%;
+  border: 5px solid #5eda5e;
+}
+.modal-content form .from-text{
+  display: block;
+  margin: auto;
+}
+.modal-btn{
+  padding: 1%;
+}
+/* modal end */
