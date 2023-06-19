@@ -22,7 +22,7 @@ Email : mdabdullahalrafi2021@gmail.com
       $notification = '<div class="panel-failed panel-success">
           <span onclick="this.parentElement.style.display='."'none'".'">X</span>
           <h1><em>Failed !!</em></h1>
-          <p>Username or password is incurrect!</p> 
+          <p>Username or password is incorrect!</p> 
         </div>';
     }
   }
